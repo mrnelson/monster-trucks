@@ -2,11 +2,23 @@
 
 /*head*/
 /*nav*/
+nav {
+    text-align: center;
+    
+}
+img[alt*="emoji"]{
+/*    background: blue;*/
+    transition: blue 0.25s linear;
+    
+}
+img:hover{
+    color: pink;
+    
+}
 a {
     text-decoration: none;
-    
-    
-    
+    color: black;
+     
 }
 li {
     list-style: none;
@@ -14,32 +26,51 @@ li {
 }
 
 img {
-    width:55%;
+    width:75%;
     border: 5px black double;
+    margin: 0 120px;
+}
+
+img[alt*="Banner"]{
+/*    padding: 10px 10px;*/
+    margin: 1%;
+    width: 30%;
+    height: 50%;
+    
 }
 
 img:hover {
     border: 10px red double;
+    
   
     
 }
 /*body*/
 body {
 font-family: 'Rock Salt', cursive;
-background: background: -webkit-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* Chrome 10+, Saf5.1+ */
+background: background: -webkit-linear-gradient(90deg, #7b4397 10%, #dc2430 90%);  Chrome 10+, Saf5.1+ 
   background:    -moz-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* W3C */
+  background:         linear-gradient(90deg, #7b4397 10%, #dc2430 90%);  W3C 
 /*  margin: 0 100px 0 100px;*/
 /*    padding: 50px 50px*/
-  
-    
+
 
 }
+h1 {
+    font-size: 5em;
+}
+h1, h2{
+    padding: 10px;
+    margin: 0 120px;
+    text-align: center;
+}
 
-
-
+p {
+    font-size: .75em;
+    margin: 0 150px;
+}
 /*main*/
 
 
