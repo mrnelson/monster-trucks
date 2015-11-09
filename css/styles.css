@@ -6,14 +6,18 @@ nav {
     text-align: center;
     
 }
-img[alt*="emoji"]{
+img{
 /*    background: blue;*/
-    transition: blue 0.25s linear;
-    
+    margin: 0 120px;
+    transition: margin-left .95s linear;
+    width: 75;
 }
-img:hover{
-    color: pink;
-    
+
+.frog img.emoji:hover {
+/*    width: 150px;*/
+    margin-left: 2000px; 
+     
+
 }
 a {
     text-decoration: none;
@@ -25,26 +29,19 @@ li {
     display: inline-block;
 }
 
-img {
-    width:75%;
-    border: 5px black double;
-    margin: 0 120px;
-}
-
 img[alt*="Banner"]{
-/*    padding: 10px 10px;*/
     margin: 1%;
     width: 30%;
-    height: 50%;
+    height: 150px;
+    hover: none;
     
+}
+.emoji{
+    width: 25%;
+    border: none;
 }
 
-img:hover {
-    border: 10px red double;
-    
-  
-    
-}
+
 /*body*/
 body {
 font-family: 'Rock Salt', cursive;
@@ -70,7 +67,19 @@ h1, h2{
 p {
     font-size: .75em;
     margin: 0 150px;
+    text-align: center;
 }
 /*main*/
-
+blockquote{
+    margin: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    border: 2px #234312 double;
+}
+#foot {
+    margin: 60px 0px 0px 0px;
+    padding: 5px, 0px 0px 0px;
+    text-align: center;
+    border: 5px #234312 double;
+}
 
