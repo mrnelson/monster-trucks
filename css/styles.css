@@ -16,13 +16,10 @@ img{
 .frog img.emoji:hover {
 /*    width: 150px;*/
     margin-left: 2000px; 
-     
-
 }
 a {
     text-decoration: none;
-    color: black;
-     
+    color: black;    
 }
 li {
     list-style: none;
