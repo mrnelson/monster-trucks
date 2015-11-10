@@ -1,0 +1,82 @@
+/*global*/
+
+/*head*/
+/*nav*/
+nav {
+    text-align: center;
+    
+}
+img{
+/*    background: blue;*/
+    margin: 0 120px;
+    transition: margin-left .95s linear;
+    width: 75;
+}
+
+.frog img.emoji:hover {
+/*    width: 150px;*/
+    margin-left: 2000px; 
+}
+a {
+    text-decoration: none;
+    color: black;    
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+img[alt*="Banner"]{
+    margin: 1%;
+    width: 30%;
+    height: 150px;
+    hover: none;
+    
+}
+.emoji{
+    width: 25%;
+    border: none;
+}
+
+
+/*body*/
+body {
+font-family: 'Rock Salt', cursive;
+background: background: -webkit-linear-gradient(90deg, #7b4397 10%, #dc2430 90%);  Chrome 10+, Saf5.1+ 
+  background:    -moz-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #7b4397 10%, #dc2430 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #7b4397 10%, #dc2430 90%);  W3C 
+/*  margin: 0 100px 0 100px;*/
+/*    padding: 50px 50px*/
+
+
+}
+h1 {
+    font-size: 5em;
+}
+h1, h2{
+    padding: 10px;
+    margin: 0 120px;
+    text-align: center;
+}
+
+p {
+    font-size: .75em;
+    margin: 0 150px;
+    text-align: center;
+}
+/*main*/
+blockquote{
+    margin: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    border: 2px #234312 double;
+}
+#foot {
+    margin: 60px 0px 0px 0px;
+    padding: 5px, 0px 0px 0px;
+    text-align: center;
+    border: 5px #234312 double;
+}
+
